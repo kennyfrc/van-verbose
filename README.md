@@ -8,6 +8,8 @@ To see the code, just go to [src/van.js](src/van.js).
 
 To see the documentation, you'll need to use a [http static server](https://gist.github.com/willurd/5720255) to serve the files in the `doc` directory. Then you can go to [http://localhost:PORT/doc/](http://localhost:PORT/doc/) to see the documentation.
 
+Updated as of version 1.2.1. See releases [here](https://github.com/vanjs-org/van/releases).
+
 ---
 
 # 🍦 **VanJS**: The Smallest Reactive UI Framework in the World
