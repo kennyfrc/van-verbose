@@ -45,6 +45,8 @@
       (async () => {
         await testVanFile(`../src/van.js`, "es6")
         es6TestingBlockerResolve()
+        document.getElementById("numTests").innerText = window.numTests
+        document.getElementById("endMsg").style.display = ""
       })()
     </script>
   </body>
