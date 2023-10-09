@@ -1,0 +1,7 @@
+node_modules/
+src/test.ts
+src/test.js
+public/hello-nomodule.html
+public/van-latest.min.pre-*.js
+public/*.gz
+dist
