@@ -1,6 +1,6 @@
 # VanJS Verbose
 
-This is a highly commented version of the VanJS source code. It is intended to be used as a learning tool for those who want to understand how VanJS works.
+This is a highly commented and refactored version (no aliases, imperative style) of the VanJS source code to make it more readable for a wider audience (it's currently written in a way to optimize bundle size). It is intended to be used as a learning tool for those who want to understand how VanJS works.
 
 This passes all the tests in the VanJS test suite.
 
