@@ -273,7 +273,7 @@ To avoid this, wrap the binding function with van._(...).
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line326">line 326</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line327">line 327</a>
     </li></ul></dd>
     
 
@@ -475,7 +475,7 @@ To avoid this, wrap the binding function with van._(...).
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line294">line 294</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line295">line 295</a>
     </li></ul></dd>
     
 
@@ -769,7 +769,9 @@ To avoid this, wrap the binding function with van._(...).
 
 
 <div class="description">
-    Adds a state to the garbage collection set
+    Keeping unnecessary states can lead to memory leaks and incorrect behavior. Therefore, we need to "add states to the garbage collector".
+The garbage collector is a mechanism that periodically checks for unnecessary states and removes them, freeing up memory.
+This function is a helper function that adds a state to the garbage collection set. The garbage collector will later check this set and remove any unnecessary states.
 </div>
 
 
@@ -821,11 +823,7 @@ To avoid this, wrap the binding function with van._(...).
 
             
 
-            <td class="description last">The state to add
-
-Keeping unnecessary states can lead to memory leaks and incorrect behavior. Therefore, we need to "add states to the garbage collector".
-The garbage collector is a mechanism that periodically checks for unnecessary states and removes them, freeing up memory.
-This function is a helper function that adds a state to the garbage collection set. The garbage collector will later check this set and remove any unnecessary states.</td>
+            <td class="description last">The state to add</td>
         </tr>
 
     
@@ -866,7 +864,7 @@ This function is a helper function that adds a state to the garbage collection s
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line101">line 101</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line102">line 102</a>
     </li></ul></dd>
     
 
@@ -1026,7 +1024,7 @@ This function is a helper function that adds a state to the garbage collection s
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line227">line 227</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line228">line 228</a>
     </li></ul></dd>
     
 
@@ -1196,7 +1194,7 @@ This function is a helper function that adds a state to the garbage collection s
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line377">line 377</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line378">line 378</a>
     </li></ul></dd>
     
 
@@ -1378,7 +1376,7 @@ This function is a helper function that adds a state to the garbage collection s
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line266">line 266</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line267">line 267</a>
     </li></ul></dd>
     
 
@@ -1492,7 +1490,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line112">line 112</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line113">line 113</a>
     </li></ul></dd>
     
 
@@ -1675,7 +1673,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line410">line 410</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line411">line 411</a>
     </li></ul></dd>
     
 
@@ -1857,7 +1855,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line467">line 467</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line468">line 468</a>
     </li></ul></dd>
     
 
@@ -1994,7 +1992,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line196">line 196</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line197">line 197</a>
     </li></ul></dd>
     
 
@@ -2312,7 +2310,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line216">line 216</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line217">line 217</a>
     </li></ul></dd>
     
 
@@ -2482,7 +2480,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line425">line 425</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line426">line 426</a>
     </li></ul></dd>
     
 
@@ -2853,7 +2851,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line387">line 387</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line388">line 388</a>
     </li></ul></dd>
     
 
@@ -2985,7 +2983,7 @@ It iterates over the states in the garbage collection set, updates their binding
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line182">line 182</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line183">line 183</a>
     </li></ul></dd>
     
 
@@ -3147,7 +3145,7 @@ This is achieved by defining a custom getter on the Proxy object that binds the 
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line346">line 346</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line347">line 347</a>
     </li></ul></dd>
     
 
@@ -3263,7 +3261,7 @@ const { div } = van.tags</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line440">line 440</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line441">line 441</a>
     </li></ul></dd>
     
 
@@ -3400,7 +3398,7 @@ const { div } = van.tags</code></pre>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line206">line 206</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line207">line 207</a>
     </li></ul></dd>
     
 
@@ -3608,7 +3606,7 @@ This approach has several benefits:
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="van.js.html">van.js</a>, <a href="van.js.html#line122">line 122</a>
+        <a href="van.js.html">van.js</a>, <a href="van.js.html#line123">line 123</a>
     </li></ul></dd>
     
 
@@ -3644,7 +3642,7 @@ This approach has several benefits:
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Tue Oct 10 2023 00:06:27 GMT+0800 (Philippine Standard Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.2</a> on Tue Oct 10 2023 00:30:13 GMT+0800 (Philippine Standard Time)
 </footer>
 
 <script> prettyPrint(); </script>

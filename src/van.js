@@ -94,6 +94,7 @@ let keepConnected = list => {
  * Adds a state to the garbage collection set
  * @param {Object} derive - The state to add
  *
+ * @description
  * Keeping unnecessary states can lead to memory leaks and incorrect behavior. Therefore, we need to "add states to the garbage collector".
  * The garbage collector is a mechanism that periodically checks for unnecessary states and removes them, freeing up memory.
  * This function is a helper function that adds a state to the garbage collection set. The garbage collector will later check this set and remove any unnecessary states.
